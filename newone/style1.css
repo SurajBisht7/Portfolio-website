@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+ background-color: rgb(154, 191, 154); 
+}
+
+.whole-section{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  gap: 100px;
+  height: 100%;
+  width: 100%;
+}
+.nav-bar{
+  width: 30%;
+  height: 100%;
+
+}
+.content{
+  width: 70%;
+  height: 100%;
+}

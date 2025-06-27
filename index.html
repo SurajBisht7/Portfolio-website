@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>My Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<header>
+  <nav>
+    <div class="left">Suraj Portfolio</div>
+    <div class="right">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>
+<main>
+  <section class="firstsection" id="home">
+    <div class="leftsection">
+      <h1>Hi, My name is <span class="purple">Suraj Singh Bisht</span></h1>
+      <p>I am a Computer Science Student</p>
+      <span id="element"></span>
+    </div>
+    <div class="rightsection">
+      <img src="./bg.png" alt="Profile Picture">
+    </div>
+  </section>
+  <hr>
+  <section class="about-section" id="about">
+    <h2>About Me</h2>
+    <p>
+      I am passionate about technology and programming. I enjoy building web applications and learning new skills. My interests include web development, machine learning, and open-source contributions.
+    </p>
+  </section>
+  <hr>
+  <section class="services-section" id="services">
+    <h2>Services</h2>
+    <div class="services-container">
+      <div class="service-card">
+        <h3>Web Development</h3>
+        <p>Building responsive and modern websites using HTML, CSS, and JavaScript.</p>
+      </div>
+      <div class="service-card">
+        <h3>Frontend Developer
+        </h3>
+        <p>Designing user-friendly interfaces with a focus on usability and aesthetics.</p>
+      </div>
+      <div class="service-card">
+        <h3>Programming</h3>
+        <p>Solving problems and automating tasks using c and C++.</p>
+      </div>
+    </div>
+  </section>
+  <hr>
+  <section class="projects-section" id="projects">
+    <h2>Projects</h2>
+    <div class="projects-container">
+      <div class="project-card">
+       <a href="https://github.com/SurajBisht7/Portfolio-website">  <h3>Portfolio Website</h3>
+        <p>A personal portfolio website to showcase my skills and projects.</p></a>
+      </div>
+      <div class="project-card">
+      <a href ="https://github.com/SurajBisht7/Blog-Website">  <h3>Blog Website</h3>
+       <p>A Simple blog Website with user friendly interface and easy management</p></a>
+      </div>
+      <div class="project-card">
+       <a href="https://github.com/SurajBisht7/Rock-Paper-Scissor-Game/tree/origin"> <h3>Rock Paper Scissor </h3>
+        <p>A classic hand game where rock crushes scissors, scissors cut paper, and paper covers rock in a cycle of quick strategic fun.</p></a>
+      </div>
+    </div>
+  </section>
+  <hr>
+  <section class="contact-section" id="contact">
+    <h2>Contact</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+</main>
+<footer>
+  <p>&copy; 2024 Suraj Singh Bisht. All rights reserved.</p>
+</footer>
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script src="./app.js"></script>
+</body>
+</html>
