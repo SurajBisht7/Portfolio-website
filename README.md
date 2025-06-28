@@ -2,9 +2,6 @@
 
 Welcome to my personal portfolio website! This site is a reflection of my journey in tech — showcasing my projects, skills, and passion for web development and problem-solving.
 
-## 🚀 Live Preview
-[Click here to view the live site](#) <!-- Replace with your deployment link if hosted -->
-
 ## 🛠️ Built With
 - HTML5
 - CSS3
